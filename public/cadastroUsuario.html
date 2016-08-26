@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/tank.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/closebutton.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+</head>
+
+<body style="background:#65A9D8">
+    <div style="height:75px;background:white">
+        <a href="principal.html" class="big-close-thik"></a>
+    </div>
+    <section class="container" style="height:550px;">
+        <div class="login" style="margin-top:-50px">
+            <h1>Cadastre-se</h1>
+            <!--a href="principal.html" class="close-thik"></a-->
+            <form method="post" action="index.html">
+                <p>
+                    <span style="display:inline;font-size:2em;vertical-align:middle;">
+                        <i style="min-width:32px" class="fa fa-user bigicon"></i>
+                    </span>
+                    <input type="text" style="width:74%;" name="nome" value="" tabindex="1" placeholder="Seu Nome" required>
+                </p>
+                <p>
+                    <span style="display:inline;font-size:2em;vertical-align:middle;">
+                        <i style="min-width:32px" class="fa fa-envelope-o bigicon"></i>
+                    </span>
+                    <input type="text" style="width:74%;" name="email" value="" tabindex="2" placeholder="Seu Endereço de Email" required>
+                </p>
+                <p>
+                    <span style="display:inline;font-size:2em;vertical-align:middle;">
+                        <i style="min-width:32px" class="fa fa-phone-square bigicon"></i>
+                    </span>
+                    <input type="text" style="width:74%;" name="telefone" value="" tabindex="3" placeholder="Seu Telefone">
+                </p>
+                <p>
+                    <textarea style="margin-left:5px;width:284px;height:200px" placeholder="Digite sua mensagem aqui...." tabindex="4" required></textarea>
+                </p>
+                <p class="remember_me" style="width=100%">
+                    <div class="sign_up" style="height:10px">
+                        <input style="height:30px" type="submit" value="Cadastrar">
+                    </div>
+                </p>
+            </form>
+        </div>
+    </section>
+    <div style="height:200px;background:white">
+    </div>
+
+</body>
+
+</html>

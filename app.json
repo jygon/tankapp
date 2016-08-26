@@ -1,0 +1,8 @@
+{
+  "name": "Tankapp Template: Node.js",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/jygon/tankapp",
+  "logo": "http://localhost:5000/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "tankapp/nodejs"
+}
